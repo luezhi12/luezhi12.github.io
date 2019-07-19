@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body {
+	margin: 0 0;
+	font-family: "Consolas";
+}
+
+/* 通用样式 */
+.clr {
+	clear: all;
+}
+
+.cor-blue {
+	color: blue;
+}
+.cor-red {
+	color: red;
+}
+
+/* 页面整体 */
+.wrap {
+	width: 960px;
+	height: 800px;
+	
+	margin: 0 auto;
+}
+
+/* 页面头部 */
+.head {
+}
+
+.logo {
+	width: 450px;
+	height: 110px;
+	margin-left: 20px;
+}
+.logo-face {
+	width: 100px;
+	height: 110px;
+	
+	float: left;
+}
+.logo-font {
+	width: 320px;
+	height: 90px;
+	margin-top: 10px;
+	
+	float: right;
+}
+
+.title {}
+.title span {}
+
+/* 页面主体 */
+.main {
+	height: 480px;
+}
+
+.tbr {
+	border: 1px dashed silver;
+	border-radius: 5px;
+	-moz-border-radius: 5px; /* Old Firefox */
+}
